@@ -11,7 +11,7 @@ public class Main {
         a1.setProprietario("Giuseppe Verdi");
         a1.setTarga("1234567");
         System.out.println(a1);
-        Automobile a2 = new Automobile("Giuseppe Verdi", "1234567", "fiat", CARBURANTE.BENZINA, CAMBIO.AUTOMATICO, 5, 2009, "gennaio");
+        Automobile a2 = new Automobile("Giuseppe Verdi", "1234467", "fiat", CARBURANTE.BENZINA, CAMBIO.AUTOMATICO, 5, 2009, "gennaio");
         System.out.println(a2.equals(a1));
     }
 }
